@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Toothpick Test</string>
+
+    <!-- fragment_intro -->
+    <string name="intro_next">Next</string>
+    <string name="intro_skip">Skip</string>
+    <string name="intro_start">Start</string>
+
+    <string-array name="intro_text">
+        <item>This app is one of the examples of usage Cicerone, Moxy, Toothpick</item>
+        <item>Cicerone is a lightweight library that makes the navigation in an Android app easy.</item>
+        <item>Moxy is a library that helps to use MVP pattern when you do the Android Application. Without problems of lifecycle and boilerplate code!</item>
+        <item>Toothpick is a scope tree based Dependency Injection (DI) library for Java.</item>
+    </string-array>
+
+    <!-- fragment_start -->
+    <string name="start_go">OK, let\'s start</string>
+    <string name="start_facebook">Sign In with Facebook</string>
+    <string name="poster_res">poster_%d</string>
+    <string name="start_register" formatted="false"><![CDATA[
+        No account? <b>Register</b>
+    ]]></string>
+
+    <!-- fragment_users -->
+    <string name="users_title">Users</string>
+    <string name="user_email">Email:</string>
+    <string name="user_phone">Phone:</string>
+
+</resources>

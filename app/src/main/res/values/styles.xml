@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseTheme"/>
+
+    <!-- fragment_intro -->
+    <style name="IntroButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/size_2</item>
+        <item name="android:bufferType">spannable</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/size_20</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/font_15</item>
+    </style>
+
+    <style name="IntroParallaxImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/town_white</item>
+        <item name="android:alpha">0.2</item>
+    </style>
+
+    <!-- fragment_start -->
+    <style name="StartFullWidth">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+    </style>
+
+    <style name="StartPoster">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/size_1</item>
+    </style>
+
+    <style name="StartButton" parent="StartFullWidth">
+        <item name="android:paddingTop">@dimen/size_16</item>
+        <item name="android:paddingBottom">@dimen/size_16</item>
+        <item name="android:layout_marginLeft">@dimen/size_16</item>
+        <item name="android:layout_marginRight">@dimen/size_16</item>
+    </style>
+
+    <style name="AuthButtonTheme" parent="Base.Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="colorButtonNormal">@color/blue</item>
+    </style>
+
+
+</resources>

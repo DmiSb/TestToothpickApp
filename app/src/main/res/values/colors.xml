@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F4F7F8</color>
+    <color name="colorPrimaryDark">#9E9E9E</color>
+    <color name="colorAccent">#BDFAE2</color>
+
+    <color name="black">#202020</color>
+
+    <color name="gray_4c4c4c">#B24C4C4C</color>
+    <color name="gray_divider">#B2D5D5D5</color>
+    <color name="gray_747474">#747474</color>
+
+    <color name="green">#23B9B9</color>
+    <color name="facebook">#4268B3</color>
+    <color name="blue">#0A5589</color>
+
+    <color name="white">#FFFFFF</color>
+</resources>

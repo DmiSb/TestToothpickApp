@@ -82,7 +82,7 @@ public class StartFragment extends BaseFragment implements StartView {
                     animateImage(poster7, drawableId);
                     break;
                 case 8:
-                    animateImage(poster7, drawableId);
+                    animateImage(poster8, drawableId);
                     break;
                 case 9:
                     animateImage(poster9, drawableId);

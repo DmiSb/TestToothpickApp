@@ -43,7 +43,7 @@ public class StartPresenter extends BasePresenter<StartView> {
     }
 
     private Observable<Poster> getPosters() {
-        return Observable.interval(1000, TimeUnit.MILLISECONDS)
+        return Observable.interval(2000, TimeUnit.MILLISECONDS)
                 .map(aLong -> {
                     Poster poster = new Poster(rnd(1, 9), getImage());
                     posterList[9] = poster.getFirstImage();

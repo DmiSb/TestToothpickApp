@@ -1,0 +1,11 @@
+package test.dmisb.toothpick.ui.helper;
+
+import android.view.animation.Animation;
+
+public abstract class AnimListener implements Animation.AnimationListener {
+    @Override
+    public void onAnimationStart(Animation animation) {  }
+
+    @Override
+    public void onAnimationRepeat(Animation animation) {  }
+}

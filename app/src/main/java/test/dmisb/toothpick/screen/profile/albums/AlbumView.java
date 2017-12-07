@@ -15,6 +15,7 @@ import test.dmisb.toothpick.data.model.Album;
 import test.dmisb.toothpick.di.Scopes;
 import test.dmisb.toothpick.screen.profile.ProfilePresenter;
 
+@SuppressWarnings("Injectable")
 public class AlbumView extends BasePage {
 
     private AlbumAdapter adapter;

@@ -15,6 +15,7 @@ import test.dmisb.toothpick.data.model.Post;
 import test.dmisb.toothpick.di.Scopes;
 import test.dmisb.toothpick.screen.profile.ProfilePresenter;
 
+@SuppressWarnings("Injectable")
 public class PostView extends BasePage {
 
     private PostAdapter adapter;

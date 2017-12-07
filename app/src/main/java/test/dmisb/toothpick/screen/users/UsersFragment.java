@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import com.arellomobile.mvp.presenter.InjectPresenter;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import test.dmisb.toothpick.R;
 import test.dmisb.toothpick.core.BaseFragment;
@@ -33,12 +34,15 @@ public class UsersFragment extends BaseFragment implements UsersView {
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
         list.setLayoutManager(layoutManager);
         list.setAdapter(adapter);
-
-        presenter.initUsers();
     }
 
     @Override
     public void addUser(User user) {
         adapter.addUser(user);
+    }
+
+    @Override
+    public void addUsers(List<User> users) {
+        adapter.setItems(users);
     }
 }
